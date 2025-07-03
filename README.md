@@ -16,6 +16,7 @@ JAR Annotation Scanner is a Java tool that scans any `.jar` file and detects usa
 * Outputs reports in CSV and JSON File formats and are available under **./result-scan-report/<jar-name>**:
     * `scan-report-<jarname>.json`
     * `scan-report-<jarname>.csv`
+    * `scan-report-<jarname>-summary.txt`
 
 ---
 ## Flowchart

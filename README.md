@@ -16,6 +16,7 @@ JAR Annotation Scanner is a Java tool that scans any `.jar` file and detects usa
 * Outputs reports in CSV and JSON File formats and are available under **./result-scan-report/<jar-name>**:
     * `scan-report-<jarname>.json`
     * `scan-report-<jarname>.csv`
+    * `scan-report-<jarname>-summary.txt`
 
 ---
 ## Flowchart
@@ -86,7 +87,7 @@ The above command will generate
 target/jar-annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-## How to Build
+## How to Run
 
 ```bash 
 java -jar target/jar-annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar <path-to-your-jar>
@@ -94,16 +95,16 @@ java -jar target/jar-annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar <
 
 Sample Run Scenarios for this Tool:
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample/target/sample-lib-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample/target/sample-lib-1.0-SNAPSHOT.jar
 ```
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample-empty/target/sample-empty-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample-empty/target/sample-empty-1.0-SNAPSHOT.jar
 ```
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample-annotations/target/sample-annotations-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample-annotations/target/sample-annotations-1.0-SNAPSHOT.jar
 ```
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample-nested/target/sample-nested-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample-nested/target/sample-nested-1.0-SNAPSHOT.jar
 ```
 
 Output Reports:

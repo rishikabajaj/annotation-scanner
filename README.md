@@ -94,16 +94,16 @@ java -jar target/jar-annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar <
 
 Sample Run Scenarios for this Tool:
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample/target/sample-lib-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample/target/sample-lib-1.0-SNAPSHOT.jar
 ```
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample-empty/target/sample-empty-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample-empty/target/sample-empty-1.0-SNAPSHOT.jar
 ```
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample-annotations/target/sample-annotations-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample-annotations/target/sample-annotations-1.0-SNAPSHOT.jar
 ```
 ```bash
-java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ../test-jar-files/sample-nested/target/sample-nested-1.0-SNAPSHOT.jar
+java -jar target/annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar ./test-jar-files/sample-nested/target/sample-nested-1.0-SNAPSHOT.jar
 ```
 
 Output Reports:

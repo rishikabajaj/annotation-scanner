@@ -86,7 +86,7 @@ The above command will generate
 target/jar-annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-## How to Build
+## How to Run
 
 ```bash 
 java -jar target/jar-annotation-scanner-1.0-SNAPSHOT-jar-with-dependencies.jar <path-to-your-jar>
